@@ -92,21 +92,21 @@ bmp24_alloc(&image_out,x_size,y_size);
 
         if (0) /* for debugging */
         if (x==690) if (y==277) {
-            printf("lum_lt = %4d   = %f\n",lum_lt,lum_lt/16.0);
-            printf("lum_ct = %4d   = %f\n",lum_ct,lum_ct/16.0);
-            printf("lum_rt = %4d   = %f\n",lum_rt,lum_rt/16.0);
-            printf("lum_lc = %4d   = %f\n",lum_lc,lum_lc/16.0);
-            printf("lum_rc = %4d   = %f\n",lum_rc,lum_rc/16.0);
-            printf("lum_lb = %4d   = %f\n",lum_lb,lum_lb/16.0);
-            printf("lum_cb = %4d   = %f\n",lum_cb,lum_cb/16.0);
-            printf("lum_rb = %4d   = %f\n",lum_rb,lum_rb/16.0);
+            printf("lum_lt = %4ld   = %f\n",lum_lt,lum_lt/16.0);
+            printf("lum_ct = %4ld   = %f\n",lum_ct,lum_ct/16.0);
+            printf("lum_rt = %4ld   = %f\n",lum_rt,lum_rt/16.0);
+            printf("lum_lc = %4ld   = %f\n",lum_lc,lum_lc/16.0);
+            printf("lum_rc = %4ld   = %f\n",lum_rc,lum_rc/16.0);
+            printf("lum_lb = %4ld   = %f\n",lum_lb,lum_lb/16.0);
+            printf("lum_cb = %4ld   = %f\n",lum_cb,lum_cb/16.0);
+            printf("lum_rb = %4ld   = %f\n",lum_rb,lum_rb/16.0);
             printf("\n");
-            printf("sum_x  = %5d   = %f\n",sum_x,sum_x/16.0);
-            printf("sum_y  = %5d   = %f\n",sum_y,sum_y/16.0);
+            printf("sum_x  = %5ld   = %f\n",sum_x,sum_x/16.0);
+            printf("sum_y  = %5ld   = %f\n",sum_y,sum_y/16.0);
             printf("\n");
-            printf("g_square = %7d\n",g_square);
-            printf("g_int    = %d\n",g_int);
-            printf("lum_new  = %d\n",lum_new);
+            printf("g_square = %7ld\n",g_square);
+            printf("g_int    = %ld\n",g_int);
+            printf("lum_new  = %ld\n",lum_new);
             /* mark position */
             /* bmp24_put(image_out,255,0,0,x,y,x_size,y_size); */
             }
