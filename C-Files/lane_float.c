@@ -98,8 +98,8 @@ bmp24_alloc(&image_out,x_size,y_size);
             printf("\n");
             printf("g_square = %f\n",g_square);
             printf("g_root   = %f\n",g_root);
-            printf("g_int    = %d\n",g_int);
-            printf("lum_new  = %d\n",lum_new);
+            printf("g_int    = %ld\n",g_int);
+            printf("lum_new  = %ld\n",lum_new);
             }
         }
 
